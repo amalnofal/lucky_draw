@@ -38,8 +38,8 @@ class _ImagepageState extends State<Imagepage> {
   int rightimg = 2;
   void changeImg() {
     setState(() {
-      leftimg = Random().nextInt(5) + 1;
-      rightimg = Random().nextInt(5) + 1;
+      leftimg = Random().nextInt(6) + 1;
+      rightimg = Random().nextInt(6) + 1;
     });
   }
 
